@@ -1,0 +1,98 @@
+@import url(font.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  height: 700px;
+
+  border-radius: 300px 300px 300px 300px;
+
+  box-shadow: 20px 1px 30px 1px gray;
+
+  transform: rotate(30deg);
+
+  background-color: #aa8b56;
+}
+.hole {
+  position: absolute;
+  top: 450px;
+  left: 350px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: white;
+
+  box-shadow: inset 15px 10px 20px 1px gray;
+}
+.color1 {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+}
+.color2 {
+  position: absolute;
+  top: 390px;
+  left: 50px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: green;
+}
+.color3 {
+  position: absolute;
+  top: 270px;
+  left: 50px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: blue;
+}
+.color4 {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: yellow;
+}
+.color5 {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: black
+}
